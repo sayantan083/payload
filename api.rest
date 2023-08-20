@@ -1,7 +1,11 @@
-POST http://localhost:3000/api/payload
+POST https://payload-5ety.onrender.com/api/payload
 Content-Type: application/json
 
 {
     "stake": 1000,
     "odds": 1.6
 }
+
+###
+
+GET https://payload-5ety.onrender.com/api/payload
